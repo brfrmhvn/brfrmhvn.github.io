@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>polyabigsofty</title>
+    <meta name="keywords" content="polyabigsofty, art, comissions, artist">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.jpg" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="widget">
+        <ul class="widget-list">
+            <li><a href="#about">ОБО МНЕ</a></li>
+            <li><a href="#cmm">КОММИШКИ</a></li>
+            <li><a href="#art">РАБОТЫ</a></li>
+            <li><a href="#contacts">КОНТАКТЫ</a></li>
+          <li><a class="btn" href="eng.html"><button class="button-1"><span>ENG</span></button></a></li>
+        </ul>
+      </div>
+    <header>
+        <img class="icon" src="icon.jpg">
+        <h1 class="text" id="about">POLYABIGSOFTY</h1>
+    </header>
+    <main class="intro" >
+        <div class="divintroimg">
+            <img class="introimg" src="_-xSOg62.jpg" alt="menchi">
+            <img class="introimg" src="a6gv2Aw9.jpg" alt="gon">
+            <img class="introimg" src="s2jY2_dj.jpg" alt="bulka">
+        </div>
+    <div class= "divintro">
+        <h2 class="intromain" style="font-size: 350%; text-align: left;">НЕМНОГО О СЕБЕ</h2>
+        <p class="introtext">Привет!<br>
+            Меня зовут Полина, меня можно найти в твиттере под ником @reallybigsofty<br>
+            Этот сайт - небольшой сборник моих работ за прошлый год, который, возможно, будет пополняться!! Если вас интересуют более свежие работы, их можно найти в моих социальных сетях указанных ниже
+        </p>
+    </div>
+    </main>
+    <main class="cont">
+        <h2 class="contmain" id="cmm">КОММИШКИ</h2>
+        <div class="context"> 
+            Основная информация по заказам:<br>
+            <ul><li>первые три исправления на стадии скетча - бесплатно</li>
+                <li>не буду рисовать nsfw<!-- и педофилию!--></li>
+                <li>зато нарисую все остальное!!</li>
+                <li>бюст / полтела / полнорост - 300₽ / 500₽ / 700₽</li>
+                <li>предоплата 100%</li>
+            </ul>
+            
+                Если вас больше интересуют проекты и мое участие в них, пожалуйста используйте почту - pdabbakh@gmail.com - или свяжитесь в социальных сетях!!!
+
+        </div>        
+        <h2 class="contmain" id="art">РАБОТЫ</h2>
+        <div class="swiper-container" >
+            <div class="swiper-wrapper">
+                <!--<div class="swiper-slide"><img class="contimg" src="U9bLpR6x.jpg" alt="spyke" width="5%"></div>!-->
+                <div class="swiper-slide"><img class="contimg" src="5zpPGIWI.jpg" alt="art"></div>
+                <div class="swiper-slide"><img class="contimg" src="pCjxx3Rk.jpg" alt="mob"></div>
+                <div class="swiper-slide"><img class="contimg" src="_p-_pmZg.jpg" alt="neon nostrade"></div>
+                <div class="swiper-slide"><img class="contimg" src="fVIq5hd5.jpg" alt="hanako"></div>
+                <div class="swiper-slide"><img class="contimg" src="-rPKfXvJ.jpg" alt="yashiro nene"></div>
+                <div class="swiper-slide"><img class="contimg" src="qqmaaizM.jpg" alt="art"></div>
+                <div class="swiper-slide"><img class="contimg" src="NJITN0N3.jpg" alt="gun"></div>
+                <div class="swiper-slide"><img class="contimg" src="311S-mJI.jpg" alt="kalluto"></div>
+                <div class="swiper-slide"><img class="contimg" src="9vWq4Fvr.jpg" alt="kalluto"></div>
+                <div class="swiper-slide"><img class="contimg" src="q3I_rphZ.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="contimg" src="pdOJpwi7.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <script src="../package/swiper-bundle.min.js"></script>
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              autoplay: { delay: 5000, },
+              slidesPerView: 4,
+              disableOnInteraction: false,
+              spaceBetween: 10,
+              freeMode: true,
+              loop: true,
+            });
+
+          </script>
+        </div>
+    </main>
+    <footer>
+        <nav class="social" id="contacts">
+            <ul>
+                <li><a href="https://twitter.com/reallybigsofty">twitter</a></li>
+                <li><a href="https://polyabigsofty.tumblr.com/">tumblr</a></li>
+                <li><a href="mailto:pdabbakh@gmail.com">e-mail: pdabbakh@gmail.com</a></li>
+            </ul>
+        </nav>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                  event.preventDefault();
+                  var hash = this.hash;
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+                    window.location.hash = hash;
+                  });
+                } 
+              });
+            });
+            </script>
+    </footer>
+</div>
+</body>
+</html>

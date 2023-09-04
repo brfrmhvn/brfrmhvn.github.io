@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>polyabigsofty</title>
+    <meta name="keywords" content="polyabigsofty, art, comissions, artist">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.jpg" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="widget">
+        <ul class="widget-list">
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#cmm">COMISSIONS</a></li>
+          <li><a href="#art">ARTWORKS</a></li>
+          <li><a href="#contacts">CONTACTS</a></li>
+          <li><a class="btn" href="rus.html"><button class="button-1"><span>RU</span></button></a></li>
+        </ul>
+      </div>
+    <header>
+        <img class="icon" src="icon.jpg">
+        <h1 class="text" id="about">POLYABIGSOFTY</h1>
+    </header>
+    <main class="intro" >
+        <div class="divintroimg">
+            <img class="introimg" src="_-xSOg62.jpg" alt="menchi">
+            <img class="introimg" src="a6gv2Aw9.jpg" alt="gon">
+            <img class="introimg" src="s2jY2_dj.jpg" alt="bulka">
+        </div>
+    <div class= "divintro">
+        <h2 class="intromain" >ABOUT ME</h2>
+        <p class="introtext">Hello there!!<br>
+            You may or may not know me as @reallybigsofty on twitter dot com. Or you just happen to pass by!! Both are fine tho. Below you can see a few of my works, I’ve been doing till today. I am still figuring out what exactly I want to create and if you interested too you can follow me in social media’s listed upon and watch me grow ;)
+        </p>
+    </div>
+    </main>
+    <main class="cont">
+        <h2 class="contmain" id="cmm">COMISSIONS</h2>
+        <div class="context"> 
+            If you interested in commissioning me<br>
+            So here goes some info:
+            <ul>
+            <li>First 3 corrections on sketch stage for free</li>
+            <li>Will not do: NSFW (smut are ok tho) and/or pedo</li>
+            <li>Will do: everything else!!</li>
+            <li>Head / Half / Full  -  15$/20$/25$ (USD)</li>
+            <li>Full prepayment via PayPal</li>
+            </ul>
+            
+            If you in offering projects or hiring me<br>
+            
+            Please contact me by pdabbakh@gmail.com so we can discuss it in details!! Or any other social media’s dm if you would rather to. 
+        </div>
+        <h2 class="contmain" id="art">ARTWORKS</h2>
+        <div class="swiper-container" >
+            <div class="swiper-wrapper">
+                <!--<div class="swiper-slide"><img class="contimg" src="U9bLpR6x.jpg" alt="spyke" width="5%"></div>!-->
+                <div class="swiper-slide"><img class="contimg" src="5zpPGIWI.jpg" alt="art"></div>
+                <div class="swiper-slide"><img class="contimg" src="pCjxx3Rk.jpg" alt="mob"></div>
+                <div class="swiper-slide"><img class="contimg" src="_p-_pmZg.jpg" alt="neon nostrade"></div>
+                <div class="swiper-slide"><img class="contimg" src="fVIq5hd5.jpg" alt="hanako"></div>
+                <div class="swiper-slide"><img class="contimg" src="-rPKfXvJ.jpg" alt="yashiro nene"></div>
+                <div class="swiper-slide"><img class="contimg" src="qqmaaizM.jpg" alt="art"></div>
+                <div class="swiper-slide"><img class="contimg" src="NJITN0N3.jpg" alt="gun"></div>
+                <div class="swiper-slide"><img class="contimg" src="311S-mJI.jpg" alt="kalluto"></div>
+                <div class="swiper-slide"><img class="contimg" src="9vWq4Fvr.jpg" alt="kalluto"></div>
+                <div class="swiper-slide"><img class="contimg" src="q3I_rphZ.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="contimg" src="pdOJpwi7.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <script src="../package/swiper-bundle.min.js"></script>
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              autoplay: { delay: 5000, },
+              slidesPerView: 4,
+              disableOnInteraction: false,
+              spaceBetween: 10,
+              freeMode: true,
+              loop: true,
+            });
+
+          </script>
+        </div>
+    </main>
+    <footer>
+        <nav class="social" id="contacts">
+            <ul>
+                <li><a href="https://twitter.com/reallybigsofty">twitter</a></li>
+                <li><a href="https://polyabigsofty.tumblr.com/">tumblr</a></li>
+                <li><a href="mailto:pdabbakh@gmail.com">e-mail: pdabbakh@gmail.com</a></li>
+            </ul>
+        </nav>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Добавить плавную прокрутку до всех ссылок
+  $("a").on('click', function(event) {
+
+    // Убедись в этом что .hash имеет значение перед переопределением поведения по умолчанию
+    if (this.hash !== "") {
+      // Запретить поведение щелчка якоря по умолчанию
+      event.preventDefault();
+
+      // Хранить хэш
+      var hash = this.hash;
+
+      // Использование метода animate() jQuery для добавления плавной прокрутки страницы
+      // Необязательное число (800) указывает количество миллисекунд, необходимых для прокрутки до указанной области
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Добавить хэш (#) для URL-адреса после завершения прокрутки (поведение щелчка по умолчанию)
+        window.location.hash = hash;
+      });
+    } // Конец, если
+  });
+});
+</script>
+    </footer>
+</div>
+</body>
+</html>
